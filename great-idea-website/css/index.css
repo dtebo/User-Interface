@@ -80,13 +80,20 @@ nav{
 	z-index: 100;
 }
 
-
 nav a{
 	color: rgb(255, 255, 255);
 	font-family: 'Bellota';
 	line-height: 2.5em;
 	padding-right: 2.8em;
 	text-decoration: none;
+}
+
+nav a:hover:before{
+	content: '<';
+}
+
+nav a:hover:after{
+	content: '>';
 }
 
 .logo{
@@ -111,7 +118,7 @@ nav a{
 
 #call-to-action{
 	background: none;
-	border: 1px solid rgb(0,0,0);
+	border: 1px solid rgb(240, 140, 10);
 	height: 50px;
 	width: 200px;
 }
@@ -136,6 +143,10 @@ nav a{
 	border-bottom: 1px solid rgb(0,0,0);
 	border-top: 1px solid rgb(0,0,0);
 	padding: 50px 0;
+}
+
+.content h2{
+	color: rgb(117, 5, 145);
 }
 
 .content p{
