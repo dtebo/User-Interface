@@ -139,8 +139,8 @@ nav a{
 
 #services, #product, #vision{
 	display: inline-block;
-	margin-top: 50px;
-	width: 32%;
+	margin: 50px 20px 0 0;
+	width: 30%;
 }
 
 .middle-img{
