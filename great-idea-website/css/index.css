@@ -72,24 +72,62 @@ h1, h2, h3, h4, h5 {
 nav{
 	display: inline-block;
 	font-size: 1.1em;
-	line-height: 1.2em;
+	width: 100%;
 }
 
 
 nav a{
 	color: #888888;
-	padding: 1.2em;
+	line-height: 2.5em;
+	padding-right: 2.8em;
 	text-decoration: none;
 }
 
-/* Hero Styles */
-.hero-section{
-	display: inline-block;
+.logo{
+	float: right;
 }
 
+/* Hero Styles */
+.hero{
+	padding: 40px 10px;
+}
+
+#hero-text, #hero-img{
+	display: inline-block;
+	vertical-align: middle;
+	width: 48%;
+}
+
+#hero-text{
+	font-size: 3.5em;
+	text-align: center;
+}
+
+#call-to-action{
+	background: none;
+	border: 1px solid rgb(0,0,0);
+	height: 50px;
+	width: 200px;
+}
+
+#call-to-action:hover{
+	cursor: pointer;
+}
+
+#hero-img{
+	position: relative;
+	right: 0;
+}
+
+#hero-img img{
+	height: 40%;
+	width: 350px;
+}
 
 /* Content Styles Here */
 .content{
 	border-bottom: 1px solid rgb(0,0,0);
 	border-top: 1px solid rgb(0,0,0);
+	padding: 20px 10px 20px 10px;
 }
+
