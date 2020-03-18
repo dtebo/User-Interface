@@ -64,3 +64,32 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.wrapper{
+	margin: 20px 40px 40px 40px;
+}
+
+/* Navigation Styles */
+nav{
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 1.2em;
+}
+
+
+nav a{
+	color: #888888;
+	padding: 1.2em;
+	text-decoration: none;
+}
+
+/* Hero Styles */
+.hero-section{
+	display: inline-block;
+}
+
+
+/* Content Styles Here */
+.content{
+	border-bottom: 1px solid rgb(0,0,0);
+	border-top: 1px solid rgb(0,0,0);
+}
